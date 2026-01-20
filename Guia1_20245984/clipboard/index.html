@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sitio Web del Portapapeles</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-sans: 'Bai Jamjuree', sans-serif;
+        
+        --color-strongCyan: hsl(171, 66%, 44%);
+        --color-lightBlue: hsl(233, 100%, 69%);
+        --color-darkGrayishBlue: hsl(210, 10%, 33%);
+        --color-grayishBlue: hsl(201, 11%, 66%);
+        
+        --breakpoint-sm: 480px;
+        --breakpoint-md: 768px;
+        --breakpoint-lg: 976px;
+        --breakpoint-xl: 1440px;
+      }
+    </style>
+    <style>
+body {
+  background-image: url('../images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-image: url('../images/bg-header-mobile.png');
+  }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
+    </style>
+  </head>
+  <body>
+    <!-- Sección Hero -->
+    <section id="hero">
+      <div>
+        <img src="../images/logo.svg" alt="" />
+        <h3>Un historial de todo lo que copias</h3>
+        <p>
+          Clipboard te permite rastrear y organizar todo lo que copias.
+          Accede instantáneamente a tu portapapeles en todos tus dispositivos.
+        </p>
+        <!-- Contenedor de Botones -->
+        <div>
+          <a href="#">Descargar para iOS</a>
+          <a href="#">Descargar para Mac</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Snippets -->
+    <section id="snippets">
+      <div>
+        <h3>Haz un seguimiento de tus fragmentos</h3>
+        <p>
+          Clipboard guarda instantáneamente cualquier elemento que copies en la
+          nube, lo que significa que puedes acceder a tus fragmentos inmediatamente
+          en todos tus dispositivos. Nuestras aplicaciones para Mac y iOS te ayudarán
+          a organizar todo.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sección Características -->
+    <section id="features">
+      <div>
+        <div>
+          <!-- Imagen -->
+          <div>
+            <img
+              src="../images/image-computer.png"
+              alt=""
+            />
+          </div>
+          <!-- Contenedor de Elementos -->
+          <div>
+            <!-- Elemento 1 -->
+            <div>
+              <h5>Búsqueda Rápida</h5>
+              <p>
+                Busca fácilmente tus fragmentos por contenido, categoría, dirección web,
+                aplicación y más.
+              </p>
+            </div>
+            <!-- Elemento 2 -->
+            <div>
+              <h5>Sincronización con iCloud</h5>
+              <p>
+                Guarda y sincroniza instantáneamente los fragmentos en todos tus dispositivos.
+              </p>
+            </div>
+            <!-- Elemento 3 -->
+            <div>
+              <h5>Historial Completo</h5>
+              <p>
+                Recupera cualquier fragmento desde el primer momento que comenzaste a usar
+                la aplicación.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Acceso en Cualquier Lugar -->
+    <section id="access">
+      <div>
+        <h3>Accede a Clipboard en Cualquier Lugar</h3>
+        <p>
+          Ya sea que estés en movimiento o en tu computadora, puedes acceder a todos tus
+          fragmentos de Clipboard con unos simples clics.
+        </p>
+        <img src="../images/image-devices.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Sección Potencia tu Flujo de Trabajo -->
+    <section id="supercharge">
+      <div>
+        <h3>Potencia tu flujo de trabajo</h3>
+        <p>
+          Tenemos las herramientas para aumentar tu productividad.
+        </p>
+        <!-- Contenedor de Elementos -->
+        <div>
+          <!-- Elemento 1 -->
+          <div>
+            <img src="../images/icon-blacklist.svg" alt="" />
+            <h5>Crear Listas Negras</h5>
+            <p>
+              Busca fácilmente tus fragmentos por contenido, categoría, dirección web,
+              aplicación y más.
+            </p>
+          </div>
+          <!-- Elemento 2 -->
+          <div>
+            <img src="../images/icon-text.svg" alt="" />
+            <h5>Fragmentos de Texto Plano</h5>
+            <p>
+              Elimina el formato no deseado del texto copiado para una apariencia consistente.
+            </p>
+          </div>
+          <!-- Elemento 3 -->
+          <div>
+            <img src="../images/icon-preview.svg" alt="" />
+            <h5>Vista Previa</h5>
+            <p>
+              Vista previa rápida de todos los fragmentos en tu Clipboard para un acceso fácil.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Referencias -->
+    <section id="references">
+      <div>
+        <img src="../images/logo-google.png" alt="" />
+        <img src="../images/logo-ibm.png" alt="" />
+        <img src="../images/logo-microsoft.png" alt="" />
+        <img src="../images/logo-hp.png" alt="" />
+        <img src="../images/logo-vector-graphics.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Sección CTA Inferior -->
+    <section id="bottom">
+      <div>
+        <h3>Clipboard para iOS y MacOS</h3>
+        <p>
+          Disponible de forma gratuita en la App Store. Descárgalo para Mac o iOS, sincronízalo
+          con iCloud y estarás listo para comenzar a agregar a tu portapapeles.
+        </p>
+        <!-- Contenedor de Botones -->
+        <div>
+          <a href="#">Descargar para iOS</a>
+          <a href="#">Descargar para Mac</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <div>
+          <!-- Imagen -->
+          <img src="../images/logo.svg" alt="" />
+          <!-- Contenedor de Menús y Redes Sociales -->
+          <div>
+            <!-- Menús -->
+            <div>
+              <!-- Menú 1 -->
+              <div><a href="#">FAQs</a></div>
+              <div><a href="#">Contáctanos</a></div>
+            </div>
+            <!-- Menú 2 -->
+            <div>
+              <div><a href="#">Política de Privacidad</a></div>
+              <div><a href="#">Kit de Prensa</a></div>
+            </div>
+            <!-- Menú 3 -->
+            <div>
+              <div><a href="#">Guía de Instalación</a></div>
+            </div>
+            <!-- Iconos Sociales -->
+            <div>
+              <a href="#"><img src="../images/icon-facebook.svg" alt="" /></a>
+              <a href="#"><img src="../images/icon-twitter.svg" alt="" /></a>
+              <a href="#"><img src="../images/icon-instagram.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
