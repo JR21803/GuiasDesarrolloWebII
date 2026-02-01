@@ -17,7 +17,7 @@ export default function App() {
     // Estado de películas vistas
     const [watched, setWatched] = useState(()=>{
         const savedWatched = localStorage.getItem("watchedMovies");
-        return savedWatched ? JSO.parse(savedWatched) : [];
+        return savedWatched ? JSON.parse(savedWatched) : [];
     });
 
     useEffect(()=>{
